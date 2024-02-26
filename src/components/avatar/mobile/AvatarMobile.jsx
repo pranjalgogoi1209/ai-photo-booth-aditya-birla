@@ -140,13 +140,13 @@ const AvatarMobileWrapper = styled.div`
   }
   main {
     /* border: 1px solid black; */
-    height: 100vw;
+    height: 150vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10vw;
+    gap: 6vw;
 
     .singleImageContainer {
       /* border: 1px solid black; */
