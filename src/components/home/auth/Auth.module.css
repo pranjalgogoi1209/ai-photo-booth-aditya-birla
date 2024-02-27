@@ -12,9 +12,9 @@
   justify-content: center;
   /* align-items: center; */
   .container {
-    margin-top: 20vw;
-    height: 60vw;
-    width: 60vw;
+    margin-top: 30vw;
+    height: 70vw;
+    width: 70vw;
     background-color: #f1f1f1;
     padding: 12vw 10vw;
     display: flex;
