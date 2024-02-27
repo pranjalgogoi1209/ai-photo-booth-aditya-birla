@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 // import HomeDesktop from "./../components/home/desktop/HomeDesktop";
 import HomeMobile from "../components/home/mobile/HomeMobile";
 import styled from "styled-components";
+import Auth from "./../components/home/auth/Auth";
 
 export default function HomePage() {
+  const [isShowAuth, setIsShowAuth] = useState(true);
   return (
     <HomeWrapper>
       {/*<div className="desktop">
@@ -12,6 +14,9 @@ export default function HomePage() {
 
       <div className="mobile">
         <HomeMobile />
+      </div>
+      <div className={`"auth" ${!isShowAuth ? "showAuth" : ""}`}>
+        <Auth setIsShowAuth={setIsShowAuth} isShowAuth={isShowAuth} />
       </div>
     </HomeWrapper>
   );
@@ -29,4 +34,10 @@ const HomeWrapper = styled.div`
       display: none;
     }
   } */
+  .auth {
+    display: flex;
+  }
+  .showAuth {
+    display: none;
+  }
 `;
