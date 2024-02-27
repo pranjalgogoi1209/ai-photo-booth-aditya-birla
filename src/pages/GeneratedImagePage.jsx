@@ -226,7 +226,8 @@ const GeneratedImageWrapper = styled.div`
     .generatedImageParent {
       /* border: 1px solid black; */
       margin: 0 auto;
-      width: 70vw;
+      /* width: 70vw; */
+      width: 60vw;
       position: relative;
       background-color: #000;
       .generatedImage {

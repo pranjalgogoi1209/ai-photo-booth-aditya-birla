@@ -11,6 +11,7 @@ button[disabled] {
   top: 0;
   left: 0;
   bottom: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -21,12 +22,12 @@ button[disabled] {
     width: 80vw;
     height: 80vw;
     background-color: #f1f1f1;
-    padding: 5vw;
+    padding: 12vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 5vw;
     border-radius: 2vw;
     position: relative;
 
@@ -47,8 +48,8 @@ button[disabled] {
       justify-content: center;
       align-items: center;
       gap: 7vw;
-      .logoContainer {
-        /* border: 1px solid black; */
+      /*  .logoContainer {
+        border: 1px solid black;
         width: 5vw;
         height: 5vw;
         img {
@@ -56,10 +57,10 @@ button[disabled] {
           height: 100%;
           display: none;
         }
-      }
+      } */
       h2 {
         /* border: 1px solid black; */
-        font-size: 5.5vw;
+        font-size: 5vw;
         text-align: center;
         font-weight: 600;
       }

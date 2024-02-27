@@ -64,9 +64,9 @@ export default function QrFeature({ generatedImg, printRef, url }) {
             {/* header */}
             <header>
               <h2>Scan this QR to get Image</h2>
-              <div className={styles.logoContainer}>
+              {/* <div className={styles.logoContainer}>
                 <img src={logo} alt="logo" />
-              </div>
+              </div> */}
             </header>
             <QRCode size={256} value={url} className={styles.qrCode} />
           </div>
