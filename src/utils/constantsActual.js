@@ -5,12 +5,20 @@ import {
   femaleCard04,
   femaleCard05,
   femaleCard06,
+  femaleCard07,
+  femaleCard08,
+  femaleCard09,
+  femaleCard10,
   maleCard01,
   maleCard02,
   maleCard03,
   maleCard04,
   maleCard05,
   maleCard06,
+  maleCard07,
+  maleCard08,
+  maleCard09,
+  maleCard10,
 } from "../assets/actual-images/";
 
 export const femaleCardsActual = [
@@ -20,6 +28,10 @@ export const femaleCardsActual = [
   femaleCard04,
   femaleCard05,
   femaleCard06,
+  femaleCard07,
+  femaleCard08,
+  femaleCard09,
+  femaleCard10,
 ];
 
 export const maleCardsActual = [
@@ -29,4 +41,8 @@ export const maleCardsActual = [
   maleCard04,
   maleCard05,
   maleCard06,
+  maleCard07,
+  maleCard08,
+  maleCard09,
+  maleCard10,
 ];

@@ -91,7 +91,7 @@ export default function GeneratedImagePage({ generatedImage, selectedGender }) {
 
           axios
             .post(
-              "https://adp24companyday.com/aiphotobooth_deloitte/upload.php",
+              "https://adp24companyday.com/aiphotobooth/aiphotobooth_Navy/upload.php",
               {
                 img: imageUrl.split(",")[1],
               }
@@ -99,7 +99,6 @@ export default function GeneratedImagePage({ generatedImage, selectedGender }) {
             .then(function (response) {
               console.log(response);
               setUrl(response.data.url);
-              console.log(url);
             })
             .catch(function (error) {
               console.log(error);
@@ -109,6 +108,7 @@ export default function GeneratedImagePage({ generatedImage, selectedGender }) {
     }, 1000);
   }, [generatedImage]);
 
+  url && console.log(url);
   return (
     <GeneratedImageWrapper>
       {/* email feature */}
@@ -141,7 +141,7 @@ export default function GeneratedImagePage({ generatedImage, selectedGender }) {
           </div>
           <div className="buttons">
             {/* print feature */}
-            <button onClick={handlePrint}>Print</button>
+            {/* <button onClick={handlePrint}>Print</button> */}
             {/* email feature */}
             {/* <button onClick={handleEmail}>Email</button> */}
             {/* qr feature */}

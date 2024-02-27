@@ -71,8 +71,8 @@ export default function AvatarMobile({
         {cards?.map((src, index) => (
           <div
             key={index}
-            className="singleImageContainer"
-            id={index == 0 || index == 5 ? "mt" : ""}
+            className={`singleImageContainer`}
+            id={index == 0 || index == 7 || index == 3 ? "mt" : ""}
             onClick={() => {
               setSelectedImageIndex(index);
               console.log("img", src);
@@ -111,7 +111,7 @@ const AvatarMobileWrapper = styled.div`
   /* border: 1px solid red; */
   width: 100%;
   height: 100vh;
-  padding: 4vw;
+  /* padding: 4vw; */
   display: flex;
   flex-direction: column;
   gap: 5vw;
@@ -139,14 +139,15 @@ const AvatarMobileWrapper = styled.div`
     }
   }
   main {
+    padding: 0 10vw;
     /* border: 1px solid black; */
-    height: 150vw;
+    height: 137vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 6vw;
+    gap: 3vw;
 
     .singleImageContainer {
       /* border: 1px solid black; */
@@ -156,7 +157,7 @@ const AvatarMobileWrapper = styled.div`
       overflow: hidden;
       cursor: pointer;
       border: 0.2vw solid #f1f1f1;
-      width: 29vw;
+      width: 22vw;
       border-radius: 3vw;
 
       .imageParent {
@@ -200,16 +201,16 @@ const AvatarMobileWrapper = styled.div`
         display: none;
         position: absolute;
         bottom: 7%;
-        left: 40%;
+        left: 35%;
         width: 8vw;
       }
       .showSelectIcon {
         display: flex;
       }
     }
-    /* #mt {
-      margin-top: 20vw;
-    } */
+    #mt {
+      margin-top: 8vw;
+    }
   }
   footer {
     margin-bottom: 5vw;
