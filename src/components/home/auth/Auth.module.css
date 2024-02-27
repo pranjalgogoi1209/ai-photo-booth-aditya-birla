@@ -13,19 +13,20 @@
   /* align-items: center; */
   .container {
     margin-top: 30vw;
-    height: 70vw;
-    width: 70vw;
+    height: 80vw;
+    width: 80vw;
     background-color: #f1f1f1;
-    padding: 12vw 10vw;
+    padding: 12vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 5vw;
     border-radius: 4vw;
     position: relative;
     h2 {
-      font-size: 5vw;
+      font-size: 7vw;
+      margin: 0 auto;
     }
     div {
       input {
@@ -33,7 +34,7 @@
         padding: 1vw 2vw;
         border: 2px solid transparent;
         outline: none;
-        width: 45vw;
+        width: 100%;
         border-radius: 1vw;
         font-size: 3.5vw;
         transition: all ease 0.2s;
@@ -50,7 +51,7 @@
       outline: none;
       padding: 1vw 2.5vw;
       font-weight: 600;
-      font-size: 3vw;
+      font-size: 3.5vw;
       border-radius: 1vw;
       cursor: pointer;
       box-shadow: 0.3vw 0.3vw 0.8vw rgba(0, 0, 0, 0.5);
