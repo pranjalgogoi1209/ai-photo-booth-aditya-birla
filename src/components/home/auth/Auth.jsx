@@ -121,7 +121,7 @@ export default function Auth({ isShowAuth, setIsShowAuth }) {
         <div>
           <input
             type="text"
-            placeholder="Enter Your Username *"
+            placeholder="Enter Username *"
             required
             name="username"
             onChange={onInputChange}
@@ -130,7 +130,7 @@ export default function Auth({ isShowAuth, setIsShowAuth }) {
         <div>
           <input
             type="password"
-            placeholder="Enter Your Password *"
+            placeholder="Enter Password *"
             required
             name="password"
             onChange={onInputChange}
