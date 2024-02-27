@@ -13,12 +13,14 @@ button[disabled] {
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   z-index: 100;
 
   .qr {
+    margin-top: 30vw;
+    width: 80vw;
+    height: 80vw;
     background-color: #f1f1f1;
-    margin: 5vw;
     padding: 5vw;
     display: flex;
     flex-direction: column;
@@ -55,16 +57,16 @@ button[disabled] {
           display: none;
         }
       }
-      h1 {
+      h2 {
         /* border: 1px solid black; */
-        font-size: 4vw;
+        font-size: 5.5vw;
         text-align: center;
         font-weight: 600;
       }
     }
 
     .qrCode {
-      width: 40vw;
+      width: 30vw;
     }
   }
 }
