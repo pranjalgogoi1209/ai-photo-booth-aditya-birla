@@ -144,19 +144,23 @@ export default function GeneratedImagePage({ generatedImage, selectedGender }) {
             {/* <button onClick={handlePrint}>Print</button> */}
             {/* email feature */}
             {/* <button onClick={handleEmail}>Email</button> */}
+
+            {/* download button */}
+            <button
+              onClick={() =>
+                exportAsImage(printRef.current, "ai-photobooth-aditya-birla")
+              }
+            >
+              Download
+            </button>
+
             {/* qr feature */}
             <QrFeature
               generatedImg={generatedImage}
               printRef={printRef}
               url={url}
             />
-            {/* <button
-              onClick={() =>
-                exportAsImage(printRef.current, "ai-photobooth-wella")
-              }
-            >
-              Download
-            </button> */}
+
             <Link to={"/avatar"} className="btn">
               Regenerate
             </Link>
