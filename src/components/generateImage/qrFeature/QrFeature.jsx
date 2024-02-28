@@ -41,7 +41,7 @@ export default function QrFeature({ generatedImg, printRef, url }) {
     <div className={styles.QrFeature}>
       <button
         onClick={handleSubmitQr}
-        style={{ display: "flex", justifyContent: "center", width: "20vw" }}
+        style={{ display: "flex", justifyContent: "center", width: "30vw" }}
         disabled={url ? false : true}
         // className={styles.disabled}
       >

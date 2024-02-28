@@ -161,9 +161,9 @@ export default function GeneratedImagePage({ generatedImage, selectedGender }) {
               url={url}
             />
 
-            <Link to={"/avatar"} className="btn">
+            {/*  <Link to={"/avatar"} className="btn">
               Regenerate
-            </Link>
+            </Link> */}
           </div>
         </div>
       ) : (
